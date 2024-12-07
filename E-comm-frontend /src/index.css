@@ -1,0 +1,116 @@
+body {
+
+}
+
+h2, h5, h6 {
+  color: #ffffff !important;
+}
+
+.button-custom, .btn-custom {
+  background-color: #7289da !important;
+  color: white !important;
+}
+
+.button-custom:hover {
+  background-color: #5865f2 !important;
+}
+
+.btn-warning-custom {
+  background-color: #faa61a !important;
+  color: white !important;
+}
+
+.btn-danger-custom {
+  background-color: #e74c3c !important;
+  color: white !important;
+}
+
+.btn-secondary-custom {
+  background-color: #484f58 !important;
+  color: white !important;
+}
+
+
+
+.modal-custom {
+  background-color: #36393f !important;
+  color: #ffffff !important;
+}
+
+.modal-header-custom {
+  background-color: #7289da !important;
+}
+
+.modal-body-custom {
+  background-color: #2f3136 !important;
+}
+
+.modal-footer-custom {
+  background-color: #36393f !important;
+}
+
+.modal-footer-custom .btn {
+  background-color: #7289da !important;
+  color: white !important;
+}
+
+.modal-footer-custom .btn-danger {
+  background-color: #e74c3c !important;
+}
+
+.modal-input {
+  background-color: #2f3136 !important;
+  color: #b9bbbe !important;
+  border: 1px solid #7289da !important;
+}
+
+.modal-input:focus {
+  background-color: #3a3d42 !important;
+  border-color: #5865f2 !important;
+  color: #ffffff !important;
+}
+
+.form-control-feedback {
+  color: #e74c3c !important;
+}
+
+.spinner-border {
+  color: #7289da !important;
+}
+
+a, a:hover {
+  color: #7289da !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.login-container {
+  width: 100%;
+}
+
+
+/* THE STYLING HERE COMES FROM THE MDB */ 
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  } 
